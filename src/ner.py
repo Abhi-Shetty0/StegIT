@@ -19,7 +19,7 @@ class MedicalNER:
             model=NER_MODEL,
             tokenizer=NER_MODEL,
             aggregation_strategy="simple",
-            device=DEVICE
+            device=-1
         )
 
         print("Model Loaded Successfully!\n")

@@ -1,0 +1,47 @@
+{
+    "patient_demographics": {
+        "age": "45-year-old",
+        "gender": "female"
+    },
+    "clinical_entities": [
+        "cough",
+        "discomfort",
+        "fever",
+        "asthma",
+        "seasonal rhinitis",
+        "X-ray",
+        "Chest",
+        "chest"
+    ],
+    "category_breakdown": {
+        "AGE": [
+            "45-year-old"
+        ],
+        "SEX": [
+            "female"
+        ],
+        "DETAILED_DESCRIPTION": [
+            "persistent"
+        ],
+        "SIGN_SYMPTOM": [
+            "cough",
+            "discomfort",
+            "fever"
+        ],
+        "SEVERITY": [
+            "mild"
+        ],
+        "BIOLOGICAL_STRUCTURE": [
+            "Chest",
+            "chest"
+        ],
+        "HISTORY": [
+            "asthma",
+            "seasonal rhinitis"
+        ],
+        "DIAGNOSTIC_PROCEDURE": [
+            "X-ray"
+        ]
+    },
+    "mapped_cover_image": "images/cover_image.png"
+}

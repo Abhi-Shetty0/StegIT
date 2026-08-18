@@ -34,7 +34,7 @@ SCISPACY_MODEL = "en_core_sci_sm"
 
 MAX_LENGTH = 512
 
-DEVICE = "cuda"
+DEVICE = "cpu"
 
 # ---------------------------------------------------
 # JSON Output
