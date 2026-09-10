@@ -74,3 +74,8 @@ Thumbs.db
 
 # Project specific
 data/
+
+# Privacy-preserving pipeline outputs
+keys/
+outputs/
+*.key
