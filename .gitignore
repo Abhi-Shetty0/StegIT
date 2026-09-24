@@ -78,3 +78,6 @@ data/
 extracted_payloads/
 output/
 *.png
+
+encrypted_dataset.json
+encryption_key.txt
