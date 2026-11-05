@@ -26,3 +26,5 @@ python-dotenv
 pyyaml
 
 pdfplumber
+kagglehub
+opencv-python

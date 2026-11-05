@@ -1,0 +1,113 @@
+{
+  "patient_profile": {
+    "patient_id": "PT-2026-98124",
+    "name": "Jane Doe",
+    "age": "45",
+    "gender": "Female",
+    "encounter_date": "2026-09-10",
+    "admission_type": "Outpatient Consultation",
+    "referring_physician": "Dr. E. Vance, MD (Pulmonology)"
+  },
+  "vitals": {
+    "blood_pressure": "122/78 mmHg",
+    "heart_rate": "74 bpm",
+    "respiratory_rate": "16 breaths/min",
+    "oxygen_saturation": "98% on room air",
+    "temperature": "98.4 F",
+    "bmi": "23.8 kg/m2"
+  },
+  "clinical_history": {
+    "primary_complaint": "Persistent mild dry cough and seasonal wheezing for 3 weeks.",
+    "allergies": [
+      "Penicillin (mild rash)",
+      "Environmental pollen / dust mites"
+    ],
+    "past_medical_history": [
+      "Mild intermittent childhood asthma",
+      "Seasonal allergic rhinitis"
+    ],
+    "family_history": [
+      "Father: Essential hypertension",
+      "Mother: Type 2 diabetes mellitus"
+    ]
+  },
+  "current_medications": [
+    {
+      "name": "Albuterol HFA Inhaler",
+      "dosage": "90 mcg/actuation",
+      "frequency": "1-2 puffs PRN every 4-6 hours",
+      "status": "Active"
+    },
+    {
+      "name": "Fluticasone Propionate Nasal Spray",
+      "dosage": "50 mcg/actuation",
+      "frequency": "1 spray each nostril daily",
+      "status": "Active"
+    },
+    {
+      "name": "Cetirizine (Zyrtec)",
+      "dosage": "10 mg",
+      "frequency": "Once daily at bedtime",
+      "status": "Active"
+    }
+  ],
+  "radiology_study": {
+    "accession_number": "RAD-XRAY-77402",
+    "procedure": "Chest PA and Lateral Radiography",
+    "indication": "Evaluation of chronic cough and assessment of pulmonary parenchymal clear space.",
+    "technique": "Digital upright PA chest radiograph with standard exposure technique.",
+    "radiologist_impression": "Normal bilateral lung volumes without focal consolidation, pneumothorax, or pleural effusion. Cardiomediastinal silhouette is within normal limits."
+  },
+  "nlp_extracted_entities": {
+    "diseases_conditions": [
+      {
+        "entity": "asthma",
+        "category": "PROBLEM",
+        "context": "Historical / Past History"
+      },
+      {
+        "entity": "allergic rhinitis",
+        "category": "PROBLEM",
+        "context": "Present"
+      },
+      {
+        "entity": "pneumothorax",
+        "category": "PROBLEM",
+        "context": "Negated / Absent"
+      },
+      {
+        "entity": "pleural effusion",
+        "category": "PROBLEM",
+        "context": "Negated / Absent"
+      }
+    ],
+    "symptoms": [
+      {
+        "entity": "dry cough",
+        "category": "SYMPTOM",
+        "context": "Present"
+      },
+      {
+        "entity": "wheezing",
+        "category": "SYMPTOM",
+        "context": "Present"
+      },
+      {
+        "entity": "chest pain",
+        "category": "SYMPTOM",
+        "context": "Negated / Absent"
+      },
+      {
+        "entity": "fever",
+        "category": "SYMPTOM",
+        "context": "Negated / Absent"
+      }
+    ]
+  },
+  "steganography_metadata": {
+    "protection_level": "Strict ROI Exemption",
+    "target_region": "Non-ROI (Surrounding Soft Tissue & Background)",
+    "integrity_algorithm": "CRC32",
+    "security_note": "Medical diagnostic region (lung parenchyma) is zero-modified."
+  }
+}
