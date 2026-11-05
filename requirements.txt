@@ -26,3 +26,5 @@ python-dotenv
 pyyaml
 
 pdfplumber
+
+cryptography
