@@ -79,3 +79,5 @@ data/
 keys/
 outputs/
 *.key
+
+output/

@@ -5,7 +5,9 @@ Uses a Hugging Face token-classification model.
 """
 
 from transformers import pipeline
-from config import NER_MODEL, DEVICE
+from config import NER_MODEL
+import torch
+DEVICE = 0 if torch.cuda.is_available() else -1
 
 
 class MedicalNER:
